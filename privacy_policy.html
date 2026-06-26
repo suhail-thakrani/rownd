@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for Rownd — Kameti Manager. Learn how Rownd collects, uses, and protects your information.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rownd.app/privacy_policy.html">
+  <title>Privacy Policy — Rownd — Kameti Manager</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4efe7;
+      --panel: #fffaf4;
+      --ink: #1f1a17;
+      --muted: #655d57;
+      --line: #e8dccd;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --accent-soft: rgba(15, 118, 110, 0.1);
+      --shadow: 0 24px 60px rgba(67, 44, 24, 0.1);
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.14), transparent 28%),
+        radial-gradient(circle at top right, rgba(251, 191, 36, 0.08), transparent 22%),
+        linear-gradient(180deg, #f8f1e8 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+
+    a { color: var(--accent); font-weight: 600; }
+    a:hover { color: var(--accent-dark); }
+
+    code {
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: rgba(15, 118, 110, 0.08);
+      font-size: 0.92em;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 72px;
+    }
+
+    .hero,
+    .section,
+    .toc {
+      background: rgba(255, 250, 244, 0.92);
+      border: 1px solid rgba(232, 220, 205, 0.92);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      overflow: hidden;
+      margin-bottom: 20px;
+      padding: 36px 28px 28px;
+      background:
+        linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(255, 250, 244, 0.2)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 250, 244, 0.94));
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(1.85rem, 4.5vw, 2.75rem);
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      line-height: 1.25;
+      color: var(--ink);
+    }
+
+    h3 {
+      margin: 22px 0 10px;
+      font-size: 1.05rem;
+      color: var(--ink);
+    }
+
+    h4 {
+      margin: 18px 0 8px;
+      font-size: 0.98rem;
+      color: var(--accent-dark);
+    }
+
+    p, li, td, th { color: var(--muted); }
+
+    .lead {
+      margin: 0;
+      max-width: 720px;
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .chip {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .toc {
+      margin-bottom: 20px;
+      padding: 22px 28px;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding-left: 22px;
+      columns: 2;
+      column-gap: 28px;
+    }
+
+    .toc li { margin: 6px 0; break-inside: avoid; }
+
+    .section {
+      padding: 26px 28px;
+      margin-bottom: 18px;
+    }
+
+    .section > p:first-of-type { margin-top: 0; }
+
+    .callout {
+      margin: 16px 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 14px 14px 0;
+      background: var(--accent-soft);
+    }
+
+    .callout p { margin: 0; color: var(--ink); }
+
+    ul, ol { margin: 10px 0; padding-left: 22px; }
+    li { margin: 6px 0; }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 14px 0 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--line);
+    }
+
+    th {
+      background: rgba(15, 118, 110, 0.07);
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .footer-note {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .summary-list li { margin: 8px 0; }
+
+    @media (max-width: 720px) {
+      main { padding-top: 16px; }
+      .hero, .section, .toc { padding-left: 18px; padding-right: 18px; }
+      .toc ol { columns: 1; }
+      th, td { padding: 10px 12px; font-size: 0.9rem; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .hero, .section, .toc { box-shadow: none; break-inside: avoid; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div class="eyebrow">Legal</div>
+      <h1>Rownd Privacy Policy</h1>
+      <p class="lead">
+        This Privacy Policy explains how <strong>Rownd</strong> (“<strong>we</strong>”, “<strong>us</strong>”, “<strong>our</strong>”)
+        collects, uses, shares, stores, and protects information when you use the <strong>Rownd</strong> mobile application
+        (published on app stores as <strong>Rownd — Kameti Manager</strong>), related websites (including
+        <a href="https://rownd.app">rownd.app</a>), and associated services (together, the “<strong>Service</strong>”).
+      </p>
+      <p class="lead" style="margin-top: 14px;">
+        By creating an account or using the Service, you agree to this Privacy Policy. If you do not agree, please do not use the Service.
+      </p>
+      <div class="meta">
+        <span class="chip">Effective date: 16 June 2026</span>
+        <span class="chip">Last updated: 16 June 2026</span>
+        <span class="chip"><a href="mailto:privacy@rownd.app">privacy@rownd.app</a></span>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#section-1">What Rownd Is (and Is Not)</a></li>
+        <li><a href="#section-2">Organizer and Member Responsibilities</a></li>
+        <li><a href="#section-3">Scope</a></li>
+        <li><a href="#section-4">Information We Collect</a></li>
+        <li><a href="#section-5">How We Use Information</a></li>
+        <li><a href="#section-6">How Information Is Shared</a></li>
+        <li><a href="#section-7">Authentication &amp; Device Security</a></li>
+        <li><a href="#section-8">Storage, Security, and Retention</a></li>
+        <li><a href="#section-9">Your Choices and Rights</a></li>
+        <li><a href="#section-10">Children’s Privacy</a></li>
+        <li><a href="#section-11">Third-Party Links and WhatsApp</a></li>
+        <li><a href="#section-12">Freemium, Trials, and Subscriptions</a></li>
+        <li><a href="#section-13">Changes to This Policy</a></li>
+        <li><a href="#section-14">Pakistan-Specific Notice</a></li>
+        <li><a href="#section-15">Contact Us</a></li>
+        <li><a href="#section-16">Summary (Plain Language)</a></li>
+      </ol>
+    </nav>
+
+    <section class="section" id="section-1">
+      <h2>1. What Rownd Is (and Is Not)</h2>
+      <p>
+        Rownd is a <strong>private committee (ROSCA / kameti / بیچی / کمیٹی) coordination tool</strong>
+        for informal savings groups, especially in Pakistan.
+      </p>
+
+      <h3>We do not handle committee payments</h3>
+      <div class="callout">
+        <p><strong>Rownd does not process, transmit, hold, or custody money for your circle.</strong></p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Rownd does</th><th>Rownd does not</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Record that a member <strong>declared</strong> they paid</td>
+              <td>Move money between members</td>
+            </tr>
+            <tr>
+              <td>Let the organizer <strong>mark</strong> a contribution as verified</td>
+              <td>Provide wallets, escrow, or bank accounts</td>
+            </tr>
+            <tr>
+              <td>Show cycle status, dues, and pool records</td>
+              <td>Integrate with JazzCash, EasyPaisa, or bank rails</td>
+            </tr>
+            <tr>
+              <td>Store receipt <strong>images</strong> members choose to upload</td>
+              <td>Collect card numbers, IBANs, or mobile-wallet credentials for committee funds</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        All committee contributions and payouts happen <strong>entirely off-platform</strong>—in cash or through payment apps and banks
+        <strong>you and your members use directly</strong>. Rownd is the <strong>record and coordination layer</strong> only.
+      </p>
+      <p>
+        <strong>Rownd is not a bank, e-money institution, wallet, payment service provider, or escrow agent</strong>
+        under Pakistani or other financial regulations.
+      </p>
+      <ul>
+        <li>We <strong>never</strong> receive committee funds into Rownd accounts.</li>
+        <li>We <strong>never</strong> initiate transfers on your behalf.</li>
+        <li>Words like “payment”, “paid”, or “verify” in the app mean <strong>status labels on records</strong>, not money movement through Rownd.</li>
+      </ul>
+      <p>
+        <strong>Organizer approval</strong> remains the trust gate for joining a circle;
+        <strong>organizer verification</strong> means confirming a member’s declaration against proof they uploaded—not processing a transaction.
+      </p>
+      <p>This distinction matters for privacy: we process <strong>coordination and record-keeping data</strong>, not financial transactions.</p>
+    </section>
+
+    <section class="section" id="section-2">
+      <h2>2. Organizer and Member Responsibilities</h2>
+      <div class="callout">
+        <p><strong>Rownd is a tool. Your circle is a private agreement between people who know and trust each other.</strong></p>
+      </div>
+      <p>
+        Rownd does <strong>not</strong> supervise your committee, guarantee payouts, collect dues on anyone’s behalf, or resolve financial disputes
+        between organizers and members. <strong>Organizers and members are solely responsible</strong> for how they run their circle, move money,
+        treat each other, and use the app.
+      </p>
+      <p>
+        By using Rownd, you acknowledge that <strong>all committee financial obligations are between organizer and members directly</strong>—not with Rownd.
+      </p>
+
+      <h3>2.1 Shared responsibilities (every user)</h3>
+      <p>Every person who creates an account or joins a circle agrees to:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Responsibility</th><th>Detail</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Accurate identity</strong></td><td>Provide a real name and WhatsApp/mobile number you control. Do not impersonate others or use fake numbers.</td></tr>
+            <tr><td><strong>Account security</strong></td><td>Keep your device, 4-digit PIN, and sign-in access private. You are responsible for activity on your account until you sign out or report compromise.</td></tr>
+            <tr><td><strong>Lawful use</strong></td><td>Use Rownd only for lawful private committee coordination. Do not use it for fraud, harassment, money laundering, or public solicitation of strangers.</td></tr>
+            <tr><td><strong>No payment processing by Rownd</strong></td><td>Do not tell members that Rownd holds, sends, or guarantees committee money. Rownd records status only.</td></tr>
+            <tr><td><strong>Off-platform money</strong></td><td>Any transfer of committee funds (cash, JazzCash, EasyPaisa, bank transfer, or other) is <strong>your arrangement</strong> with other members—Rownd is not a party to that transfer.</td></tr>
+            <tr><td><strong>Honest records</strong></td><td>Do not falsify contribution declarations, receipt uploads, settlement notes, or pool records.</td></tr>
+            <tr><td><strong>Private invites</strong></td><td>Invite links and codes are for <strong>your intended circle only</strong>. Do not post them on public forums, classifieds, or open social media.</td></tr>
+            <tr><td><strong>WhatsApp &amp; third parties</strong></td><td>Messages and payment arrangements you make on WhatsApp, by phone, or in person are <strong>your responsibility</strong>. Rownd does not read WhatsApp chats.</td></tr>
+            <tr><td><strong>Age</strong></td><td>You must be <strong>18 or older</strong> (or the age of majority in your jurisdiction) to use the Service.</td></tr>
+            <tr><td><strong>Disputes within the circle</strong></td><td>Financial and interpersonal disputes about contributions, pool turns, late payers, or leavers must be resolved <strong>between organizer and members</strong>. Rownd does not arbitrate committee disputes or refund committee money.</td></tr>
+            <tr><td><strong>Data you share</strong></td><td>You choose what receipt images and profile details to provide. Do not upload others’ personal documents without consent.</td></tr>
+            <tr><td><strong>Policy compliance</strong></td><td>Follow this Privacy Policy and any applicable Terms of Service. Rownd may suspend accounts that abuse the platform or endanger other users.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>2.2 Organizer responsibilities (منتظم)</h3>
+      <p>If you <strong>create</strong> or <strong>administer</strong> a circle, you have <strong>additional</strong> duties. Rownd gives you tools; <strong>you</strong> run the committee.</p>
+
+      <h4>A. Forming and running the circle</h4>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Responsibility</th><th>Detail</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Circle setup</strong></td><td>You define the committee name, contribution amount per share, frequency (weekly/monthly), number of shares, start timing, and policies shown to members.</td></tr>
+            <tr><td><strong>Model choice</strong></td><td>You choose the committee model (e.g. <strong>Organizer-first</strong> fixed pool order, or <strong>Discount</strong> where pool amounts are agreed socially and you record settlement in the app).</td></tr>
+            <tr><td><strong>Private group only</strong></td><td>Circles are <strong>invite-only</strong>. You control who may join via invite code, link, and optional pre-approved phone numbers.</td></tr>
+            <tr><td><strong>Member approval</strong></td><td>You approve or reject join requests (except instant join for numbers you pre-approved).</td></tr>
+            <tr><td><strong>Slot assignment</strong></td><td>Where applicable, you manage member slots, payout positions, and multi-share membership fairly according to rules <strong>you</strong> communicated to the group.</td></tr>
+            <tr><td><strong>Not a regulated activity</strong></td><td>You are responsible for ensuring your committee structure complies with <strong>local laws and customs</strong> in your area. Rownd does not provide legal, tax, or Sharia compliance advice.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>B. Money — entirely off Rownd</h4>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Responsibility</th><th>Detail</th></tr></thead>
+          <tbody>
+            <tr><td><strong>No collection by Rownd</strong></td><td>You <strong>must not</strong> tell members to send committee money to Rownd or to any account controlled by Rownd.</td></tr>
+            <tr><td><strong>Collect off-platform</strong></td><td>You arrange how members pay you or each other (cash handover, JazzCash, EasyPaisa, bank transfer, etc.) <strong>outside</strong> the app.</td></tr>
+            <tr><td><strong>Payout off-platform</strong></td><td>When a member’s pool turn comes, <strong>you</strong> (or the group) deliver funds off-platform. Rownd only records that a pool/settlement was noted.</td></tr>
+            <tr><td><strong>No guarantee from Rownd</strong></td><td>Rownd does <strong>not</strong> guarantee that members pay, that you pay the pool, or that records match bank/wallet reality.</td></tr>
+            <tr><td><strong>Your payment channels</strong></td><td>Any account numbers, QR codes, or instructions you share in WhatsApp or in person are <strong>your</strong> responsibility—not Rownd’s.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>C. Verification and records</h4>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Responsibility</th><th>Detail</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Manual verification</strong></td><td>The app uses <strong>organizer-manual verification</strong>. You review each member’s <strong>declaration</strong> and optional receipt image.</td></tr>
+            <tr><td><strong>Due diligence</strong></td><td>You should check receipts, amounts, and timing before marking <strong>organizer-verified</strong>. Rownd does not validate JazzCash/EasyPaisa/bank transactions against external systems.</td></tr>
+            <tr><td><strong>Verification = your judgment</strong></td><td>A “verified” label means <strong>you</strong> confirmed the record—it is not a bank confirmation, legal receipt, or Rownd audit.</td></tr>
+            <tr><td><strong>Late / pending states</strong></td><td>You are responsible for following up with late members through WhatsApp, calls, or in person.</td></tr>
+            <tr><td><strong>Close cycle</strong></td><td>You decide when a cycle is complete enough to close and open the next cycle, based on rules you set with your group.</td></tr>
+            <tr><td><strong>Cycle reports</strong></td><td>Reports reflect <strong>in-app records</strong>. If members never declared or you never verified, reports will not match reality.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>D. Discount committees — settlement recording</h4>
+      <ul>
+        <li>For discount-style committees, pool amounts are typically agreed in <strong>WhatsApp or in person</strong> first.</li>
+        <li>You enter the agreed pool amount, discount, and settlement notes in Rownd after the group agrees.</li>
+        <li>Members may acknowledge or dispute settlement records in the app. You are responsible for addressing disputes within the group.</li>
+        <li>If members submit pool <strong>requests</strong>, you evaluate them according to your circle’s rules.</li>
+      </ul>
+
+      <h4>E. Member data and privacy (organizer view)</h4>
+      <ul>
+        <li>As organizer, you can see members’ <strong>full WhatsApp/mobile numbers</strong> to run the circle. Use them <strong>only</strong> for committee coordination.</li>
+        <li>If you send reminders or share summaries, you are responsible for <strong>tone, frequency, and consent</strong> within your social group.</li>
+        <li>You can view receipt images members uploaded for your circle. Store and discuss them responsibly.</li>
+        <li>Do not demand unnecessary personal data from members beyond what the circle needs to operate.</li>
+      </ul>
+
+      <h4>F. Subscriptions and limits</h4>
+      <ul>
+        <li>Free and paid plans may cap groups created, groups joined, or members per group. Limits are enforced server-side.</li>
+        <li>Fees for Rownd Plus/Pro (if purchased) are processed by <strong>Google Play</strong> or the <strong>Apple App Store</strong>—separate from committee money.</li>
+      </ul>
+
+      <h3>2.3 Member responsibilities (رکن)</h3>
+      <p>If you <strong>join</strong> a circle as a member (not the organizer), you agree to the following.</p>
+
+      <h4>A. Joining and staying in the circle</h4>
+      <ul>
+        <li>Join only with a valid invite from <strong>your</strong> organizer or group.</li>
+        <li>The organizer runs the circle. Joining means you accept their rules, schedule, contribution amount, and verification process.</li>
+        <li>If you are not pre-approved, you may remain <strong>pending</strong> until the organizer accepts you.</li>
+        <li>Keep your display name and phone number accurate so the organizer can coordinate with you.</li>
+        <li>If you hold more than one slot/share, you are responsible for <strong>each share’s</strong> contributions and eligibility per circle rules.</li>
+      </ul>
+
+      <h4>B. Money — entirely off Rownd</h4>
+      <ul>
+        <li>Pay the organizer or fellow members using methods <strong>they</strong> specify—<strong>never</strong> through Rownd.</li>
+        <li>Pay by the due date your group agreed. Rownd may label you <strong>late</strong> in records if you do not declare or the organizer marks you late.</li>
+        <li>Do not expect Rownd to hold, release, or insure your contributions or pool payout.</li>
+        <li>When it is your pool turn, collect funds <strong>off-platform</strong> from the organizer or members as your group arranged.</li>
+        <li>Before joining, you are responsible for trusting the organizer and members. Rownd does not perform background checks or credit checks.</li>
+      </ul>
+
+      <h4>C. Declarations, receipts, and honesty</h4>
+      <ul>
+        <li>When you pay off-platform, use the app to <strong>declare</strong> that you paid for the correct cycle and amount.</li>
+        <li>Do not mark yourself paid if you have not paid.</li>
+        <li>If you upload proof (screenshot/photo), it must relate to <strong>your</strong> payment and be genuine.</li>
+        <li><strong>Organizer-verified</strong> means they accepted your proof—not that Rownd confirmed the transaction.</li>
+        <li>If you declared incorrectly, coordinate with your organizer to fix records.</li>
+      </ul>
+
+      <h4>D. Discount committees — settlement review</h4>
+      <ul>
+        <li>When the organizer records a pool/settlement, you should review it promptly in the app.</li>
+        <li>You may <strong>acknowledge</strong> if correct or <strong>dispute</strong> with a note if you disagree.</li>
+        <li>Disputes are resolved <strong>within your group</strong>—not by Rownd support deciding who owes money.</li>
+      </ul>
+
+      <h4>E. Privacy and conduct</h4>
+      <ul>
+        <li>Other members <strong>do not</strong> see your full phone number by default.</li>
+        <li>Active members in the same circle can see <strong>contribution status labels</strong> for operational transparency.</li>
+        <li>Receipts you upload may be visible to the organizer and, per circle rules, other members.</li>
+        <li>Protect your PIN. Anyone with your unlocked phone may see your circle financial <strong>records</strong>.</li>
+        <li>If you stop participating, inform your organizer and settle off-platform obligations <strong>directly</strong>.</li>
+      </ul>
+
+      <h3>2.4 What Rownd is not responsible for</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Topic</th><th>Rownd’s role</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Committee contributions or payouts</strong></td><td>None. All money moves off-platform between users.</td></tr>
+            <tr><td><strong>Default or fraud by organizer/member</strong></td><td>We do not insure against someone leaving with funds, refusing to pay, or falsifying records.</td></tr>
+            <tr><td><strong>Accuracy of user-entered data</strong></td><td>Records reflect what users declare and organizers verify. We do not audit bank/wallet systems.</td></tr>
+            <tr><td><strong>Receipt authenticity</strong></td><td>We store images; we do not forensically verify them.</td></tr>
+            <tr><td><strong>WhatsApp messages or verbal promises</strong></td><td>Not stored or enforced by Rownd.</td></tr>
+            <tr><td><strong>Disputes between users</strong></td><td>Operational support may help with <strong>app access</strong>; we do not adjudicate who owes whom in a committee.</td></tr>
+            <tr><td><strong>Legal/tax/Sharia outcomes</strong></td><td>You must seek your own professional advice.</td></tr>
+            <tr><td><strong>Investment returns or profit</strong></td><td>Rownd is not an investment product.</td></tr>
+            <tr><td><strong>Loss of funds</strong></td><td>Any loss from off-platform transfers is <strong>between users</strong>, not compensable by Rownd.</td></tr>
+            <tr><td><strong>Organizer decisions</strong></td><td>Approvals, rejections, verifications, cycle closes, and settlement entries are <strong>organizer actions</strong>.</td></tr>
+            <tr><td><strong>Member payment timing</strong></td><td>Late fees, penalties, or social consequences are <strong>group matters</strong>, not Rownd enforcement.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Rownd provides software.</strong> The <strong>organizer and members</strong> provide trust, payment discipline, and enforcement in the real world.</p>
+
+      <h3>2.5 How this relates to privacy</h3>
+      <ul>
+        <li>We collect and display data <strong>on your instructions</strong> as organizer or member.</li>
+        <li><strong>You</strong> are responsible for ensuring your circle’s use of that data is fair and lawful.</li>
+        <li>Organizers must <strong>not misuse</strong> member phone numbers or receipts obtained through Rownd.</li>
+        <li>Members must <strong>not upload</strong> another person’s sensitive documents without permission.</li>
+        <li>Rownd may process <strong>audit logs</strong> of organizer actions to secure the platform and preserve dispute <strong>records</strong>.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-3">
+      <h2>3. Scope</h2>
+      <p>This policy applies to:</p>
+      <ul>
+        <li>The Rownd Android and iOS apps</li>
+        <li>Authenticated use of our backend (Supabase-hosted database, authentication, storage, and edge functions)</li>
+        <li>Invite links and deep links served from <code>rownd.app</code></li>
+        <li>Push notifications sent through Firebase Cloud Messaging (FCM)</li>
+      </ul>
+      <p>It does <strong>not</strong> govern:</p>
+      <ul>
+        <li><strong>WhatsApp</strong> or other third-party messaging apps you use to talk with your circle</li>
+        <li>Payment apps or banks you use to move money between members</li>
+        <li>Third-party websites or services we do not operate</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-4">
+      <h2>4. Information We Collect</h2>
+      <p>
+        We follow a <strong>data minimization</strong> approach: we collect information needed to run private ROSCA circles,
+        enforce access controls, and improve reliability—not to build a public directory or sell personal data.
+      </p>
+
+      <h3>4.1 Information you provide</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Category</th><th>Examples</th><th>Why we collect it</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Account &amp; profile</strong></td><td>Full name, WhatsApp/mobile number, optional city, optional recovery email</td><td>Create your account, identify you in circles, support account recovery</td></tr>
+            <tr><td><strong>Authentication</strong></td><td>Phone number, 4-digit device PIN (stored locally on your device as a hash), derived sign-in credentials for cloud session</td><td>Sign in, unlock the app, restore your account on a new device</td></tr>
+            <tr><td><strong>Circle membership</strong></td><td>Groups you create or join, member role (organizer/member), join status, display name in a group, slot count, payout position</td><td>Operate invite-only committees and show roster status</td></tr>
+            <tr><td><strong>Contribution records (not money)</strong></td><td>Declared amounts, status labels (pending / declared paid / organizer-verified / late), cycle due dates, settlement notes, pool requests</td><td>Shared operational record for your circle—<strong>not</strong> a payment ledger run by Rownd</td></tr>
+            <tr><td><strong>Receipt images (optional)</strong></td><td>Screenshots or photos you upload as proof</td><td>Organizer review only; Rownd does not validate bank/wallet transactions</td></tr>
+            <tr><td><strong>Invites</strong></td><td>Invite codes, pre-approved phone numbers (organizer-controlled), join requests</td><td>Control private access to circles</td></tr>
+            <tr><td><strong>Communications preferences</strong></td><td>Notification on/off, in-app notification history</td><td>Deliver reminders and action items you expect</td></tr>
+            <tr><td><strong>Settings</strong></td><td>Language (English/Urdu), theme, currency preference, location consent</td><td>Localize and personalize the app experience</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>We <strong>do not</strong> sell your personal information.</p>
+
+      <h3>4.2 Information collected automatically</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Category</th><th>Examples</th><th>Why we collect it</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Device &amp; app identifiers</strong></td><td>App-generated device ID for push registration, FCM push token, platform (Android/iOS), locale</td><td>Deliver push notifications to the correct device</td></tr>
+            <tr><td><strong>Technical &amp; diagnostic data</strong></td><td>Crash reports, error logs, performance events (via Firebase Crashlytics when enabled)</td><td>Fix bugs and improve stability</td></tr>
+            <tr><td><strong>Security &amp; audit logs</strong></td><td>Authentication events, authorization failures, rate-limit events, idempotent action logs</td><td>Prevent abuse, investigate disputes, protect circles</td></tr>
+            <tr><td><strong>Usage metadata</strong></td><td>Notification delivery status, message dispatch logs, subscription/trial status</td><td>Operate freemium limits and service reliability</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Release builds are configured to <strong>avoid verbose client logging</strong> of sensitive values.</p>
+
+      <h3>4.3 Location information</h3>
+      <p>Location is <strong>optional</strong> and used only if you grant permission.</p>
+      <ul>
+        <li>We may read <strong>low-accuracy</strong> device location temporarily to suggest a <strong>city name</strong> for profile completion or relevance.</li>
+        <li>We store <strong>city-level</strong> information you save to your profile—not a continuous history of precise GPS coordinates.</li>
+        <li>You can decline location permission and enter your city manually.</li>
+      </ul>
+
+      <h3>4.4 Information we do not collect</h3>
+      <ul>
+        <li>We do <strong>not</strong> operate a public search directory of users or circles.</li>
+        <li>We do <strong>not</strong> read your WhatsApp chat contents.</li>
+        <li>We do <strong>not</strong> collect or store <strong>committee payment credentials</strong>—no bank account numbers, IBANs, card numbers, JazzCash/EasyPaisa wallet IDs, or similar data used to move circle money.</li>
+        <li>We do <strong>not</strong> collect government ID numbers for KYC or payment compliance.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-5">
+      <h2>5. How We Use Information</h2>
+      <p>We use personal information to:</p>
+      <ol>
+        <li><strong>Provide the Service</strong> — accounts, circles, invites, contribution <strong>records</strong>, organizer verification queues, cycle reports, settlement notes, and reminders (<strong>not</strong> money movement).</li>
+        <li><strong>Enforce private access</strong> — row-level security, organizer/member permissions, subscription limits, and invite-only group visibility.</li>
+        <li><strong>Send notifications</strong> — in-app alerts and push messages about dues, verifications, approvals, and cycle events.</li>
+        <li><strong>Prepare WhatsApp-oriented dispatches</strong> — when organizers use reminder/share flows, we may format messages for delivery via configured provider webhooks.</li>
+        <li><strong>Maintain security</strong> — rate limiting, fraud/abuse detection, audit trails for <strong>circle dispute records</strong>.</li>
+        <li><strong>Improve reliability</strong> — crash analytics and operational monitoring.</li>
+        <li><strong>Comply with law</strong> — respond to lawful requests where applicable.</li>
+      </ol>
+      <p>We do <strong>not</strong> use your data for unrelated advertising profiling.</p>
+    </section>
+
+    <section class="section" id="section-6">
+      <h2>6. How Information Is Shared</h2>
+
+      <h3>6.1 Inside your circles (member visibility)</h3>
+      <p>Rownd is designed for <strong>private invite-only groups</strong>. Visibility is contextual:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Data</th><th>You</th><th>Organizer of your circle</th><th>Other active members</th></tr></thead>
+          <tbody>
+            <tr><td>Your name in the circle</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Your contribution <strong>status label</strong></td><td>Yes</td><td>Yes</td><td>Yes (within the same circle)</td></tr>
+            <tr><td>Your full phone number</td><td>Yes</td><td>Yes (to run the circle)</td><td><strong>Masked/hidden</strong> by default</td></tr>
+            <tr><td>Receipts you uploaded for a cycle</td><td>Yes</td><td>Yes</td><td>Visible within the circle per product rules</td></tr>
+            <tr><td>Other circles you belong to</td><td>Only if you are a member there</td><td>No cross-circle browsing</td><td>No</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>There is <strong>no public profile discovery</strong> or marketplace listing of committees.</p>
+
+      <h3>6.2 Service providers (processors)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Provider</th><th>Role</th><th>Typical data processed</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Supabase</strong></td><td>Database, authentication, file storage, serverless functions</td><td>Profile, circle records, receipts, auth tokens</td></tr>
+            <tr><td><strong>Google Firebase</strong></td><td>Push notifications (FCM), crash reporting (Crashlytics)</td><td>Device tokens, crash diagnostics</td></tr>
+            <tr><td><strong>WhatsApp Business API / messaging partners</strong> (if configured)</td><td>Deliver authentication or utility messages</td><td>Phone number, message template content</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>We do <strong>not</strong> authorize these providers to sell your personal information.</p>
+
+      <h3>6.3 Legal and safety disclosures</h3>
+      <p>We may disclose information if we reasonably believe it is necessary to:</p>
+      <ul>
+        <li>Comply with applicable law, regulation, legal process, or governmental request</li>
+        <li>Enforce our terms or protect the rights, safety, and integrity of users, Rownd, or the public</li>
+        <li>Detect, prevent, or address fraud, security, or technical issues</li>
+      </ul>
+
+      <h3>6.4 Business transfers</h3>
+      <p>
+        If Rownd is involved in a merger, acquisition, or asset sale, user information may transfer as part of that transaction,
+        subject to continued protections consistent with this policy.
+      </p>
+    </section>
+
+    <section class="section" id="section-7">
+      <h2>7. Authentication &amp; Device Security</h2>
+
+      <h3>7.1 Current sign-in model</h3>
+      <p>Today, Rownd uses:</p>
+      <ul>
+        <li>Your <strong>WhatsApp/mobile number</strong> as your account identifier</li>
+        <li>A <strong>4-digit PIN</strong> for quick unlock on your device (stored locally as a cryptographic hash tied to your user ID)</li>
+        <li><strong>Cloud authentication</strong> via Supabase Auth to sync your account across devices</li>
+      </ul>
+      <p>We are working toward <strong>phone verification via OTP</strong> (SMS or WhatsApp authentication templates). When enabled, OTP will be used to prove phone ownership before account access.</p>
+
+      <h3>7.2 What stays on your device</h3>
+      <ul>
+        <li>Your PIN hash and app unlock state are stored using <strong>secure local storage</strong> on your device.</li>
+        <li>We do <strong>not</strong> store your plaintext PIN in our database.</li>
+      </ul>
+
+      <h3>7.3 Session security</h3>
+      <ul>
+        <li>Access uses industry-standard tokens with refresh rotation managed by Supabase Auth.</li>
+        <li>Signing out invalidates your session on the device and server side where applicable.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-8">
+      <h2>8. Storage, Security, and Retention</h2>
+
+      <h3>8.1 Security measures</h3>
+      <p>We implement safeguards aligned with our security baseline, including:</p>
+      <ul>
+        <li><strong>TLS 1.2+</strong> encryption in transit (HTTPS only)</li>
+        <li><strong>Managed encryption at rest</strong> for database and storage</li>
+        <li><strong>Row Level Security (RLS)</strong> on operational tables</li>
+        <li><strong>Server-side authorization</strong> for sensitive actions</li>
+        <li><strong>Private receipt storage</strong> with type/size limits and group-scoped access policies</li>
+        <li><strong>Rate limiting</strong> on sensitive public endpoints</li>
+        <li><strong>Immutable audit events</strong> for security-relevant and dispute-relevant actions</li>
+        <li><strong>No service-role secrets</strong> embedded in the mobile app</li>
+      </ul>
+      <p>No method of transmission or storage is 100% secure; we work to reduce risk proportionate to the sensitivity of ROSCA coordination data.</p>
+
+      <h3>8.2 International processing</h3>
+      <p>
+        Our service providers may process data in countries other than Pakistan (for example, United States or European Union data centers
+        used by Supabase or Google). Where required, we rely on provider contractual commitments and standard safeguards for cross-border processing.
+      </p>
+
+      <h3>8.3 Retention</h3>
+      <p>We retain information for as long as needed to:</p>
+      <ul>
+        <li>Provide the Service to you and your circles</li>
+        <li>Maintain <strong>operational and dispute records</strong> for committees you participated in</li>
+        <li>Meet legal, security, and audit obligations</li>
+      </ul>
+      <p>
+        When you delete your account (see Section 9), we delete or anonymize personal data within a reasonable period, except where retention is required for
+        ongoing circle dispute records involving other members, legal compliance, or backup cycles already scheduled for deletion.
+      </p>
+    </section>
+
+    <section class="section" id="section-9">
+      <h2>9. Your Choices and Rights</h2>
+      <p>Depending on your location and applicable law, you may have rights to:</p>
+      <ul>
+        <li><strong>Access</strong> personal information we hold about you</li>
+        <li><strong>Correct</strong> inaccurate profile information in the app</li>
+        <li><strong>Delete</strong> your account and associated personal data</li>
+        <li><strong>Withdraw consent</strong> for optional features (location, push notifications)</li>
+        <li><strong>Export</strong> a copy of your data</li>
+      </ul>
+
+      <h3>9.1 In-app controls</h3>
+      <ul>
+        <li><strong>Notifications:</strong> Account → Notifications</li>
+        <li><strong>Location:</strong> Account → Settings</li>
+        <li><strong>Profile:</strong> Account → Profile</li>
+        <li><strong>Sign out:</strong> ends your active session on the device</li>
+      </ul>
+
+      <h3>9.2 Account deletion and data requests</h3>
+      <p>
+        To request <strong>account deletion</strong> or <strong>data export</strong>, use <strong>Account → Privacy</strong> in the app,
+        visit <a href="https://rownd.app/delete-account/">https://rownd.app/delete-account/</a>,
+        or contact <a href="mailto:privacy@rownd.app">privacy@rownd.app</a> from the email or phone number associated with your account.
+      </p>
+      <p>
+        Account deletion requests enter a <strong>30-day recovery window</strong> before final processing.
+        We may need to verify your identity before fulfilling a request.
+        Deleting your account may not delete historical circle records that other members rely on;
+        where possible, we will <strong>anonymize</strong> your identity in shared records rather than destroy the circle’s operational audit trail.
+      </p>
+      <p>We aim to respond to verified requests within <strong>30 days</strong>.</p>
+    </section>
+
+    <section class="section" id="section-10">
+      <h2>10. Children’s Privacy</h2>
+      <p>
+        Rownd is intended for users who can form or join legally recognized informal financial groups in their jurisdiction—typically
+        <strong>adults (18+)</strong>.
+      </p>
+      <p>
+        We do not knowingly collect personal information from children under 18.
+        If you believe a child has provided us information, contact
+        <a href="mailto:privacy@rownd.app">privacy@rownd.app</a> and we will take appropriate steps to delete it.
+      </p>
+    </section>
+
+    <section class="section" id="section-11">
+      <h2>11. Third-Party Links and WhatsApp</h2>
+      <ul>
+        <li><strong>Invite links</strong> may open Rownd from WhatsApp, SMS, or other channels. Those channels have their own privacy policies.</li>
+        <li>Rownd does <strong>not</strong> control WhatsApp. Messages you send manually in WhatsApp are not imported into Rownd unless you explicitly use an in-app share or dispatch feature.</li>
+        <li>When organizers share invite text to WhatsApp, that sharing is initiated by the user/organizer, not automatic surveillance of chats.</li>
+        <li><strong>Payment instructions</strong> shared on WhatsApp are <strong>organizer/member communications</strong>—not Rownd instructions to send money to Rownd.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-12">
+      <h2>12. Freemium, Trials, and Subscriptions</h2>
+      <p><strong>Committee money and Rownd subscription money are separate.</strong></p>
+      <ul>
+        <li><strong>Committee contributions:</strong> never processed by Rownd (see Section 1).</li>
+        <li><strong>Rownd app subscription</strong> (optional Plus/Pro plans): if you purchase through <strong>Google Play</strong> or the <strong>Apple App Store</strong>, that purchase is processed <strong>only by the store</strong> under its privacy policy. Rownd receives entitlement status (active plan, trial), not your full card number.</li>
+      </ul>
+      <p>If you use paid plans or trials, we process:</p>
+      <ul>
+        <li>Plan tier, trial campaign codes, usage counters (groups created/joined), and entitlement flags</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-13">
+      <h2>13. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will:</p>
+      <ul>
+        <li>Update the “Last updated” date at the top</li>
+        <li>Provide notice in the app or via email for material changes where appropriate</li>
+      </ul>
+      <p>Continued use after the effective date of an update constitutes acceptance of the revised policy.</p>
+    </section>
+
+    <section class="section" id="section-14">
+      <h2>14. Pakistan-Specific Notice</h2>
+      <p>Rownd is built primarily for <strong>Pakistan-based informal ROSCA groups</strong> (PKR, WhatsApp-first workflows, Pakistani mobile number formats).</p>
+      <ul>
+        <li>We process phone numbers in normalized Pakistan international format (e.g., <code>92XXXXXXXXXX</code>).</li>
+        <li>Committee funds always flow <strong>off-platform</strong> between members; Rownd records coordination only and <strong>does not handle payments</strong>.</li>
+        <li><strong>Organizers and members</strong>—not Rownd—are responsible for committee conduct, off-platform transfers, and disputes.</li>
+        <li>Pakistan’s personal data protection framework continues to evolve; we commit to reasonable security practices and transparent handling as described in this policy.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="section-15">
+      <h2>15. Contact Us</h2>
+      <p>Questions, complaints, or privacy requests:</p>
+      <p><strong>Email:</strong> <a href="mailto:privacy@rownd.app">privacy@rownd.app</a></p>
+
+      <h3>Play Store data safety reference</h3>
+      <p>For Play Store data safety declarations, map Rownd’s collection practices to these categories:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Play / store category</th><th>Rownd practice</th></tr></thead>
+          <tbody>
+            <tr><td>Name</td><td>Collected</td></tr>
+            <tr><td>Phone number</td><td>Collected</td></tr>
+            <tr><td>Email (optional recovery)</td><td>Collected if provided</td></tr>
+            <tr><td>Photos / files (receipts)</td><td>Collected when uploaded</td></tr>
+            <tr><td>App activity (in-app events)</td><td>Collected</td></tr>
+            <tr><td>Device or other IDs (FCM token, device ID)</td><td>Collected</td></tr>
+            <tr><td>Location</td><td>Optional; city-level only with consent</td></tr>
+            <tr><td>Financial info (bank/card/wallet for committees)</td><td><strong>Not collected</strong> — Rownd does not handle committee payments</td></tr>
+            <tr><td>Purchase history (Rownd app subscription via store)</td><td>Processed by Google Play / Apple; Rownd sees plan status only</td></tr>
+            <tr><td>Data sold to third parties</td><td><strong>No</strong></td></tr>
+            <tr><td>Data encrypted in transit</td><td><strong>Yes</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="section-16">
+      <h2>16. Summary (Plain Language)</h2>
+      <ul class="summary-list">
+        <li>Rownd helps <strong>private kameti/committee circles</strong> track contribution <strong>records</strong> and cycles; it is <strong>not a bank</strong> and <strong>does not handle payments</strong>.</li>
+        <li><strong>Organizers and members are responsible</strong> for all committee money, honesty, disputes, and off-platform transfers.</li>
+        <li><strong>All committee money</strong> moves between members <strong>outside Rownd</strong> (cash, JazzCash, EasyPaisa, bank transfer, etc.).</li>
+        <li><strong>Organizers</strong> approve members, verify declarations, close cycles, and record settlements—they do <strong>not</strong> act on behalf of Rownd.</li>
+        <li><strong>Members</strong> pay off-platform, declare honestly, and upload genuine receipts.</li>
+        <li>We collect <strong>name, phone, circle records, status labels, and optional receipt photos</strong>—not your WhatsApp chats, bank details, or wallet credentials.</li>
+        <li><strong>Organizers</strong> see phone numbers to run the circle; <strong>members</strong> do not see each other’s full numbers by default.</li>
+        <li>“Paid” and “verified” in the app mean <strong>recorded status</strong>, not money processed by Rownd.</li>
+        <li>We use <strong>Supabase</strong> and <strong>Firebase</strong> to run the app securely.</li>
+        <li>You can control <strong>notifications</strong> and <strong>location</strong>; contact us to <strong>delete or export</strong> your data.</li>
+        <li>We <strong>do not sell</strong> your personal information.</li>
+      </ul>
+      <p class="footer-note">
+        This document is based on Rownd’s product requirements, database schema, security/privacy baseline, and shipped app behavior as of June 2026.
+        Review with qualified legal counsel before production publication.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
